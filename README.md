@@ -13,3 +13,4 @@ Time spent: `2.5`
 - [x] DraggableImageView
 - [ ] Basic Modal Transition
 
+![Video Walkthrough](walkthrough.gif)
