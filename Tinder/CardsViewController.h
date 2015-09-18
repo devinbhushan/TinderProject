@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardsViewController.h
 //  Tinder
 //
 //  Created by Devin Bhushan on 9/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CardsViewController : UIViewController
 
 @end
-

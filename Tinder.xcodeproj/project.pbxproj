@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		0180DF7B1BAC9F0800DB8810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DF7A1BAC9F0800DB8810 /* main.m */; };
 		0180DF7E1BAC9F0800DB8810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DF7D1BAC9F0800DB8810 /* AppDelegate.m */; };
-		0180DF811BAC9F0800DB8810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DF801BAC9F0800DB8810 /* ViewController.m */; };
 		0180DF841BAC9F0800DB8810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0180DF821BAC9F0800DB8810 /* Main.storyboard */; };
 		0180DF861BAC9F0800DB8810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0180DF851BAC9F0800DB8810 /* Assets.xcassets */; };
 		0180DF891BAC9F0800DB8810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0180DF871BAC9F0800DB8810 /* LaunchScreen.storyboard */; };
+		0180DF921BACA0B900DB8810 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0180DF911BACA0B900DB8810 /* CardsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		01FB9BE61BACB0C6006F7018 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FB9BE51BACB0C6006F7018 /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		01FB9BE91BACB0D9006F7018 /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB9BE81BACB0D9006F7018 /* DraggableImageView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		0180DF7A1BAC9F0800DB8810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0180DF7C1BAC9F0800DB8810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0180DF7D1BAC9F0800DB8810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0180DF7F1BAC9F0800DB8810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0180DF801BAC9F0800DB8810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0180DF831BAC9F0800DB8810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0180DF851BAC9F0800DB8810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0180DF881BAC9F0800DB8810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0180DF8A1BAC9F0800DB8810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0180DF901BACA0B900DB8810 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		0180DF911BACA0B900DB8810 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		01FB9BE51BACB0C6006F7018 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		01FB9BE71BACB0D9006F7018 /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
+		01FB9BE81BACB0D9006F7018 /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +65,10 @@
 			children = (
 				0180DF7C1BAC9F0800DB8810 /* AppDelegate.h */,
 				0180DF7D1BAC9F0800DB8810 /* AppDelegate.m */,
-				0180DF7F1BAC9F0800DB8810 /* ViewController.h */,
-				0180DF801BAC9F0800DB8810 /* ViewController.m */,
+				01FB9BE51BACB0C6006F7018 /* DraggableImageView.xib */,
+				01FB9BE71BACB0D9006F7018 /* DraggableImageView.h */,
+				01FB9BE81BACB0D9006F7018 /* DraggableImageView.m */,
+				0180DF931BACA0BF00DB8810 /* View Controllers */,
 				0180DF821BAC9F0800DB8810 /* Main.storyboard */,
 				0180DF851BAC9F0800DB8810 /* Assets.xcassets */,
 				0180DF871BAC9F0800DB8810 /* LaunchScreen.storyboard */,
@@ -77,6 +84,15 @@
 				0180DF7A1BAC9F0800DB8810 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0180DF931BACA0BF00DB8810 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0180DF901BACA0B900DB8810 /* CardsViewController.h */,
+				0180DF911BACA0B900DB8810 /* CardsViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +154,7 @@
 			files = (
 				0180DF891BAC9F0800DB8810 /* LaunchScreen.storyboard in Resources */,
 				0180DF861BAC9F0800DB8810 /* Assets.xcassets in Resources */,
+				01FB9BE61BACB0C6006F7018 /* DraggableImageView.xib in Resources */,
 				0180DF841BAC9F0800DB8810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0180DF811BAC9F0800DB8810 /* ViewController.m in Sources */,
 				0180DF7E1BAC9F0800DB8810 /* AppDelegate.m in Sources */,
+				0180DF921BACA0B900DB8810 /* CardsViewController.m in Sources */,
+				01FB9BE91BACB0D9006F7018 /* DraggableImageView.m in Sources */,
 				0180DF7B1BAC9F0800DB8810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +318,7 @@
 				0180DF8F1BAC9F0800DB8810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
